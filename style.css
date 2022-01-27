@@ -1,0 +1,51 @@
+body
+{
+    font-family: sans-serif;
+
+    background-image: url(images/background.svg);
+    background-size: 100%;
+}
+
+#block-start
+{
+    display: inline-flex;
+}
+#block-start .left
+{
+    width: 60%;
+    text-align: center;
+}
+#block-start .right
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+.profile-photo
+{
+    border-radius: 30% 50% 50% 0%;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    font-size: 48px;
+    color: white;
+}
+
+.sub-title
+{
+    font-size: 32px;
+    color: lightgray;
+}
+
+
